@@ -1,0 +1,144 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-02-25T15:08:42.048Z",
+    "end": "2023-02-25T15:08:50.345Z",
+    "duration": 8297,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "48e99b1b-f5cb-4611-a014-a31e295d1976",
+      "title": "",
+      "fullFile": "cypress\\e2e\\login.cy.js",
+      "file": "cypress\\e2e\\login.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "ab324780-c9f8-4962-b37a-d335684ad868",
+          "title": "Add Category",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Test LOGIN",
+              "fullTitle": "Add Category Test LOGIN",
+              "timedOut": null,
+              "duration": 1828,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_login_pages.default.loginsucces();\n_login_pages.default.elements.assertLogin();",
+              "err": {},
+              "uuid": "b46955f5-ee1a-4e0b-8bb1-c7db3460dbbf",
+              "parentUUID": "ab324780-c9f8-4962-b37a-d335684ad868",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test Sauce Demo Invalid Password",
+              "fullTitle": "Add Category Test Sauce Demo Invalid Password",
+              "timedOut": null,
+              "duration": 1817,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_login_pages.default.loginfails();\n_login_pages.default.elements.assertLoginFail();",
+              "err": {},
+              "uuid": "e8e18c5f-9112-48c1-a833-8268aee4d86c",
+              "parentUUID": "ab324780-c9f8-4962-b37a-d335684ad868",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test Sauce Demo Sauce labs product backpack",
+              "fullTitle": "Add Category Test Sauce Demo Sauce labs product backpack",
+              "timedOut": null,
+              "duration": 1690,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_login_pages.default.loginsucces();\n_login_pages.default.elements.assertLogin();\n_dashboardpages.default.sauceLabsBackpack();",
+              "err": {},
+              "uuid": "de7b455c-5bca-4549-b27d-b7e280d80250",
+              "parentUUID": "ab324780-c9f8-4962-b37a-d335684ad868",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "b46955f5-ee1a-4e0b-8bb1-c7db3460dbbf",
+            "e8e18c5f-9112-48c1-a833-8268aee4d86c",
+            "de7b455c-5bca-4549-b27d-b7e280d80250"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 5335,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "chart": true,
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress/reports"
+      },
+      "version": "6.2.0"
+    }
+  }
+}
